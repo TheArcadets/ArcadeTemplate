@@ -72,7 +72,7 @@ public:
 	UTexture2D* CabinetSides;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Launch Info", meta = (ToolTip = "Select the map that your game should start with."))
-	UWorld* InitialGameMap;
+	TSoftObjectPtr<UWorld> InitialGameMap;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Launch Info", meta = (ToolTip = "If you have multiple player start locations and you need to assign a start tag check this."))
 	bool UseStartTag;
