@@ -9,8 +9,6 @@ class ARCADEFRAMEWORK_API UArcadeFunctions : public UBlueprintFunctionLibrary
 	GENERATED_BODY()
 
 public:
-	UPROPERTY()
-	TSoftObjectPtr<UWorld> LoadedLevel;
 
 	UFUNCTION(BlueprintCallable, Category = "ArcadeFunctions", meta = (WorldContext = "Context"))
 	static void ArcadeOpenLevel(UObject* Context, TSoftObjectPtr<UWorld> LevelToOpen);
@@ -20,5 +18,8 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "ArcadeFunctions", meta = (WorldContext = "Context"))
 	static void ArcadeUnloadStreamLevel(UObject* Context, ULevelStreamingDynamic* LevelToUnload);
+
+	UFUNCTION(BlueprintCallable, Category = "ArcadeFunctions", meta = (WorldContext = "Context"))
+	static void QuitToHub();
 
 };
