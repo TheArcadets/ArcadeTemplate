@@ -1,5 +1,22 @@
 # **Arcade Template**
-# Videos <sub>coming soon</sub>
+# Videos
+## Introduction To The Template
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2zFPTH0Le6I?si=NCa6vRxg01yyXx-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Blueprint Game
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e2l1Qs2iVNM?si=Zixw01Zx9ngrN7Wh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## C++ Game
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2lm2lMLiCOc?si=YNJ_ETNGb33P7Yaf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Arcade Framework Overview
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u5GDvrWCm8M?si=c0eE2KoNC-kpdKEq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[Texture Maps Video](https://youtu.be/7g3O1TmQGac).
 # Creating a Blueprint only game
 To create a blueprint only game you need to first create a content only plugin by going into Edit->Plugins->Add and choosind the Content Only Plugin. Name this plugin to be the full name or the abbreviated name of your game. Once created you need to place **ALL** of your game's content within this plugin's content folder. Once the game is finished you should be able to send use the entirety of this plugin as your full game and it will allow us to easily add your game to the Arcade.
 Steps:
