@@ -1,20 +1,13 @@
 # **Arcade Template**
 # Videos
-## Introduction To The Template
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2zFPTH0Le6I?si=NCa6vRxg01yyXx-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+## [Introduction To The Template](https://youtu.be/2zFPTH0Le6I)
 
-## Blueprint Game
+## [Blueprint Game](https://youtu.be/e2l1Qs2iVNM)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e2l1Qs2iVNM?si=Zixw01Zx9ngrN7Wh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+## [C++ Game](https://youtu.be/2lm2lMLiCOc)
 
-## C++ Game
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2lm2lMLiCOc?si=YNJ_ETNGb33P7Yaf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-## Arcade Framework Overview
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u5GDvrWCm8M?si=c0eE2KoNC-kpdKEq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+## [Arcade Framework Overview](https://youtu.be/u5GDvrWCm8M?si=GIKYKrgyEYpeq9dn)
 
 [Texture Maps Video](https://youtu.be/7g3O1TmQGac).
 # Creating a Blueprint only game
