@@ -9,7 +9,7 @@
 
 ## [Arcade Framework Overview](https://youtu.be/u5GDvrWCm8M?si=GIKYKrgyEYpeq9dn)
 
-[Texture Maps Video](https://youtu.be/7g3O1TmQGac).
+[Optional Extra: Texture Maps Video](https://youtu.be/7g3O1TmQGac).
 # Creating a Blueprint only game
 To create a blueprint only game you need to first create a content only plugin by going into Edit->Plugins->Add and choosind the Content Only Plugin. Name this plugin to be the full name or the abbreviated name of your game. Once created you need to place **ALL** of your game's content within this plugin's content folder. Once the game is finished you should be able to send use the entirety of this plugin as your full game and it will allow us to easily add your game to the Arcade.
 Steps:
