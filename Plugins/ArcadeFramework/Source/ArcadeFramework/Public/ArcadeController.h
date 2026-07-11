@@ -17,13 +17,22 @@ UCLASS()
 class ARCADEFRAMEWORK_API AArcadeController : public APlayerController
 {
 	GENERATED_BODY()
-
+	
 public:
-
+	
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "00_Input")
 	TArray<UInputMappingContext*> GameMapping;
 	
+
+	UFUNCTION(BlueprintCallable, Category = "ArcadeFunctions", meta=(ReturnDisplayName="Success"))
+	bool ArcadeRemoveInputMapping(UInputMappingContext* removedMapping);
+
+	UFUNCTION(BlueprintCallable, Category = "ArcadeFunctions", meta = (ReturnDisplayName = "Success"))
+	bool ArcadeAddInputMapping(UInputMappingContext* addedMapping, int32 priority);
+
+	UFUNCTION(BlueprintCallable, Category = "ArcadeFunctions")
+	void ArcadeRemoveAllMappings();
 
 private:
 	UPROPERTY()

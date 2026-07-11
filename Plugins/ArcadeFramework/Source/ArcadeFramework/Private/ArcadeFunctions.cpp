@@ -21,7 +21,8 @@ void UArcadeFunctions::ArcadeOpenLevel(UObject* Context, TSoftObjectPtr<UWorld> 
 			FRotator SpawnRotation = FRotator::ZeroRotator;
 			FVector TransformOffset = FVector(0, 50000, 500);
 			FGuid uniqueIDSuffix = FGuid::NewGuid();
-			FString uniqueLevelName = levelPath + uniqueIDSuffix.ToString();
+			UE_LOG(LogTemp, Warning, TEXT("LevelPath name %s"), *levelPath);
+			FString uniqueLevelName = uniqueIDSuffix.ToString();
 
 			ULevelStreamingDynamic* LoadedLevel = ULevelStreamingDynamic::LoadLevelInstance(Context->GetWorld(), levelPath, TransformOffset, SpawnRotation, levelLoadSuccess, uniqueLevelName);
 			UE_LOG(LogTemp, Warning, TEXT("Level Loaded %s"), *uniqueLevelName);
@@ -29,7 +30,7 @@ void UArcadeFunctions::ArcadeOpenLevel(UObject* Context, TSoftObjectPtr<UWorld> 
 			FName SafeName = LoadedLevel->GetWorldAssetPackageFName();
 			UE_LOG(LogTemp, Warning, TEXT("Level Safe Name: %s"), *SafeName.ToString());
 
-			const TArray<ULevelStreaming*> &StreamingLevels = Context->GetWorld()->GetStreamingLevels();
+			const TArray<ULevelStreaming*>& StreamingLevels = Context->GetWorld()->GetStreamingLevels();
 			for (ULevelStreaming* LevelStreamed : StreamingLevels)
 			{
 				FName PIEFixedName = (LevelStreamed->GetWorldAssetPackageFName());
@@ -60,7 +61,7 @@ ULevelStreamingDynamic* UArcadeFunctions::ArcadeLoadStreamLevel(UObject* Context
 			FRotator SpawnRotation = FRotator::ZeroRotator;
 			FVector TransformOffset = FVector(0, 0, 0) + StreamLocation;
 			FGuid uniqueIDSuffix = FGuid::NewGuid();
-			FString uniqueLevelName = levelPath + uniqueIDSuffix.ToString();
+			FString uniqueLevelName = uniqueIDSuffix.ToString();
 
 			ULevelStreamingDynamic* LoadedLevel = ULevelStreamingDynamic::LoadLevelInstance(Context->GetWorld(), levelPath, TransformOffset, SpawnRotation, levelLoadSuccess, uniqueLevelName);
 
